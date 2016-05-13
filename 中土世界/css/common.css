@@ -1,0 +1,84 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,section, article, aside, header, footer, nav, dialog, figure,menu,hgroup,iframe{ margin:0; padding:0; border:0; font-family:"Microsoft YaHei";}
+ul,li{ list-style:none;}
+img{ border:0; vertical-align:top;}
+a{display:inline-block; text-decoration:none; color:#333333;}
+a:hover{color:#f35305;}
+body{background:#FFFFFF; line-height:24px; font-size:12px; color:#333333;}
+input:focus,textarea:focus{outline:none; font-family:"Microsoft YaHei";}
+
+/*top-banner*/
+.top-banner{ width:100%; height:60px; overflow:hidden; min-width:1200px; text-align:center;}
+.top-banner a{display:block; width:100%; height:100%;}
+
+/*login*/
+.login{ width:1200px; height:30px; margin:0 auto;}
+.login ul{ float:left;}
+.login ul li{float:left; margin:0 5px; line-height:28px;}
+.login ul li span{width:1px; height:10px; background:#999999; display:block; margin-top:10px;}
+.login ul li a{color:#555555;}
+.login ul li a:hover{text-decoration:underline;}
+
+.login ul~ul{float:right; height:30px;}
+.login ul~ul li{margin:0 5px; line-height:28px;}
+.login ul~ul li span{width:1px; height:10px; background:#999999; display:block; margin-top:10px;}
+.login ul~ul li:nth-last-child(1){margin-left:12px;}
+.login ul~ul li:nth-last-child(1) a{border:none; float:none; width:50px;}
+.login ul~ul a i{display:inline-block; background:url(../images/xuebi.png) no-repeat 0px 1px; width:18px; height:18px; vertical-align:-3px; margin:0px 3px;}
+.login ul~ul a~a i{background:url(../images/xuebi.png) no-repeat 0px -18px; margin:0px 3px;}
+
+
+
+.header{ width:100%; height:95px; min-width:1200px; background-color:#f35305; color:#FFFFFF; clear:both;}
+.header .nav{width:1200px; height:95px; margin:0 auto;}
+.header .nav .logo{width:233px; height:95px; float:left; line-height:95px; font-size:14px;}
+.header .nav .logo img{margin:22px 4px 0px 0px;}
+.header .nav ul{float:left; margin-left:20px;}
+.header .nav ul li{display:inline;}
+.header .nav ul li a{width:120px;height:95px; float:left; line-height:95px; font-size:20px; text-align:center;}
+.header .nav ul li a:hover{color:#f35305; background:#FFFFFF;}
+.header .nav input{float:right; border:none; margin-top:30px;}
+.header .nav .shopping{width:124px; height:35px; background:#FFFFFF; font-size:14px; color:#000000; background:url(../images/shopping.png) no-repeat 15px 9px #fff; padding-left:25px;}
+.header .nav .search{width:35px; height:35px; margin-right:10px; background:url(../images/search.png) no-repeat #FFFFFF 8px 10px;}
+.header .nav .text{width:311px; height:35px; font-size:16px; padding:0px 10px; line-height:35px;}
+
+.main{width:1200px; height:380px; margin:20px auto 30px; clear:both;}
+.main .left-nav ul{width:168px; height:348px; background:#F8F8F8; border:1px solid #E4E4E4; padding:15px; float:left;}
+.main .left-nav ul li i{ display:inline-block; width:18px; height:18px; background:url(../images/xuebi-2.png) no-repeat -1px 0px; vertical-align:-3px; margin-right:3px;}
+.main .left-nav ul li:nth-child(2) i{background:url(../images/xuebi-2.png) no-repeat -2px -20px;}
+.main .left-nav ul li:nth-child(3) i{background:url(../images/xuebi-2.png) no-repeat -1px -42px;}
+.main .left-nav ul li:nth-child(4) i{background:url(../images/xuebi-2.png) no-repeat -1px -64px;}
+.main .left-nav h1 a{ font-size:14px;  color:#556270;}
+.main .left-nav h2{padding-left:20px;}
+.main .left-nav h2 a{ font-size:12px; padding-right:4px; font-weight:normal; color:#556270; line-height:12px;}
+.main .left-nav li a:hover{ text-decoration:underline;}
+
+.main .center{width:760px; height:380px;float:left; margin-left:10px;}
+
+.main .right{ width:220px; height:380px; margin-left:10px; float:left;}
+.main .right ul{ width:186px; height:131px; background:#F8F8F8; border:1px solid #E4E4E4; padding:16px;}
+.main .right ul li h2{ font-size:14px; color:#555555;}
+.main .right ul li a{ font-size:12px; color:#555555; line-height:28px;}
+.main .right ul li a:hover{ text-decoration:underline;}
+.main .right ul li i{ width:3px; height:3px; display:inline-block; background:url(../images/xuebi.png) no-repeat -38px 0px; vertical-align:2px; margin-right:6px}
+.main .right img{ margin-top:10px;}
+
+.con{ width:1200px; height:300px; margin:0 auto; clear:both;}
+h1 { font-size:22px; color:#f35305; font-weight:normal;}
+.con .hotsale{ width:1148; height:199px; padding:30px 25px; border:1px solid #e4e4e4; border-top:3px solid #E4E4E4; margin-top:13px;}
+.con .hotsale dl{float:left; width:196; height:190px;}
+.con .hotsale dl~dl{margin-left:40px; width:196px; height:190px;}
+.con .hotsale dl dt{ width:196px; height:145px; display:table-cell; vertical-align:middle; text-align:center; position:relative;}
+.con .hotsale dl dt p{ width:43px; height:43px; position:absolute; top:14px; right:15px; background:url(../images/xuebi.png) no-repeat -46px 0px; color:#FFFFFF; text-align:center; font-size:14px; line-height:43px;}
+
+.col{ width:1200px; height:519px; margin:30px auto;}
+.col .colum{ width:1200px; height:519px; margin-top:13px; border-top:1px solid #e4e4e4; border-bottom:1px solid #e4e4e4;}
+.col .left{ width:200px; height:519px; background:#F8F8F8; float:left;}
+.col .left ul{ margin:10px;}
+.col .left ul li{ float:left; margin:0px auto; line-height:28px;}
+.col .left ul li a{ width:60px; color:#666666;}
+.col .left ul li a:hover{ width:60px; color:#f35305;}
+
+.col .right{ width:1000px; height:519px; float:left;}
+.col .right dl{ width:169px; height:259px; float:left; border-bottom:1px solid #E4E4E4; border-right:1px solid #E4E4E4; padding:0px 40px;}
+.col .right dl dt{ width:167px; height:170px; text-align:center;}
+.col .right dl dd{ font-size:12px; line-height:18px; color:#F35305;}
