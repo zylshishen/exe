@@ -80,5 +80,21 @@ h1 { font-size:22px; color:#f35305; font-weight:normal;}
 
 .col .right{ width:1000px; height:519px; float:left;}
 .col .right dl{ width:169px; height:259px; float:left; border-bottom:1px solid #E4E4E4; border-right:1px solid #E4E4E4; padding:0px 40px;}
-.col .right dl dt{ width:167px; height:170px; text-align:center;}
+.col .right dl dt{ width:167px; height:170px; text-align:center; display:inline-block;}
+.col .right dl dt img{padding-top:24px;}
 .col .right dl dd{ font-size:12px; line-height:18px; color:#F35305;}
+
+.service { background:url(../images/footer_01.jpg) #f4f4f4 no-repeat center top; height:130px; width:100%; min-width:1200px; margin:50px 0px; clear:both;}
+
+/*footer*/
+
+#footer{ width:1200px; height:380px; margin:0 auto; clear:both;}
+#footer ul{ width:70px; height:100px; float:left; margin-left:120px; }
+#footer ul li{ font-size:16px; text-align:center; line-height:25px;}
+#footer ul li i{display:inline-block; background:url(../images/xuebi.png) no-repeat -38px 0px; width:3px; height:3px; margin-right:5px; vertical-align:3px}
+#footer ul li a{font-size:12px; line-height:20px; color:#747474;}
+#footer ul li a:hover{ color:#F35305;}
+
+#footer dl{ width:90px; height:120px; float:left; margin-left:50px; text-align:center;}
+#footer dl:last-child{ margin-left:10px;}
+#footer dl dt{width:90px; height:90px;}
